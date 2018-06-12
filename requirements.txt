@@ -1,4 +1,4 @@
 Flask == 1.0.2
 location == 0.0.7
-sockety == 0.3.4
+socketpy == 0.3.4
 requests == 2.19.0
