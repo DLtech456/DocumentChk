@@ -10,7 +10,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 @app.route('/')
 def hello_world():
-    return render_template('index.html')
+    return render_template('homepg.html')
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
