@@ -20,11 +20,16 @@
  	<div class="panel-heading">Camera API</div>
 
   <form action="/upload" method="post" enctype="multipart/form-data" >
-      <span class="btn btn-default btn-file">
-        Browse <input type="file" name="image">
+    <span class="btn btn-default btn-file">
+        Browse <input type="file" name="image" onchange="readURL(this);" />
       </span>
-
+    <!--<input type='file' onchange="readURL(this);" /> -->
+    <br>
+    <img id="blah" src="static/uploads/Fintech.jpeg" alt="your image" />
+      <br>
+      <br>
     <input type="submit" value="Upload your image" class="btn btn-primary">
+
   </form>
 
 
