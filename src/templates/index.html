@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<br>
+<br>
+<br>
+<div class="w3-row">
+<div class="w3-half w3-container">
+  <h1 class="w3-xxlarge w3-text-grey">Image Reading</h1>
+<div class="w3-half w3-container w3-xlarge w3-text-grey">
+  <p class="">Provide image you are ineterested in learning about</p>
+</div>
+<br>
+    <p>Developed by Venki Srinivasan</p>
+<br>
+<br>
+<form action="/upload" method="post" enctype="multipart/form-data" >
+    <label class="btn btn-default btn-file">
+        Browse <input <input type="file" name="image" style="display: none;">
+    </label>
+    <input type="submit" value="Submit your image" class="btn btn-primary">
+</form>
+
+{% endblock %}
