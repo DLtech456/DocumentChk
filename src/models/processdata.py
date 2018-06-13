@@ -1,7 +1,7 @@
 
 from flask import json
 
-from src.authData import client, ocrAPIKey
+from src.authdata import client, ocrAPIKey
 import requests
 
 class ImageDetect(object):
