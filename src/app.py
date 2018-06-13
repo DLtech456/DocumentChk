@@ -5,7 +5,7 @@ from src.models.processdata import ImageDetect
 app = Flask(__name__)
 
 
-UPLOAD_FOLDER = os.path.join('static','uploads')
+UPLOAD_FOLDER = os.path.join('./src/static','uploads')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 @app.route('/')
