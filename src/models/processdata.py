@@ -10,8 +10,8 @@ class ImageDetect(object):
 
     @classmethod
     def SightEngineCall(cls ,Img): female="Female"
-        output = client.check('celebrities', 'face-attributes').set_file(Img)
 
+        output = client.check('celebrities', 'face-attributes').set_file(Img)
         femaleProb=output[ "faces"][0]["attributes"]["female"]
         if femaleProb >=0.90:
             female = "Female"
