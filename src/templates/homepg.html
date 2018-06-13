@@ -1,6 +1,7 @@
 {% extends "base.html" %}
-{% block content %}
 
+
+{% block content %}
 
 <div class="w3-panel">
   <i class="w3-xlarge fa fa-bars"></i>
@@ -8,26 +9,24 @@
 <!-- First Grid: Logo & About -->
 <div class="w3-row">
 <div class="w3-half w3-container">
-  <h1 class="w3-xxlarge w3-text-light-grey">Hello!</h1>
-  <h1 class="w3-xxlarge w3-text-grey">Address</h1>
-  <h1 class="w3-jumbo">Insights</h1>
-</div>
+  <h1 class="w3-xxlarge w3-text-grey">Image Reading</h1>
+
+
 <div class="w3-half w3-container w3-xlarge w3-text-grey">
-  <p class="">We try to provide all the information for
-    the provided address. The objective of this is to empower
-    anyone who wants to consider everything related to an address</p>
-  <p>All the information provided are obtained from opensource such as Google, Zillow etc., If you have any questions regarding the quality of data provided please reach out to them directly</p>
+  <p class="">Provide image you are ineterested in learning about</p>
 </div>
-</div>
+<div class="container"></div><div class="container"></div><div class="container">
+  <div class="panel panel-primary">
+ 	<div class="panel-heading">Camera API</div>
+
+  <form action="/upload" method="post" enctype="multipart/form-data" >
+      <span class="btn btn-default btn-file">
+        Browse <input type="file" name="image">
+      </span>
+
+    <input type="submit" value="Upload your image" class="btn btn-primary">
+  </form>
 
 
-    <form id="entry-form" action="/profile" method="post">
-        <p></p>
-        Enter Address 1: <input type="text" id="City,State" name="StCty1">
-        <p></p>
-        Enter Address 2: <input type="text" id="City,State" name="StCty2">
-        <p></p>
-        <input type="submit">
-    </form>
 
 {% endblock %}
