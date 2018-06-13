@@ -12,3 +12,7 @@ function readURL(input) {
             reader.readAsDataURL(input.files[0]);
         }
     }
+
+$("#imgInp").change(function() {
+  readURL(this);
+});
