@@ -14,7 +14,7 @@ def hello_world():
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
-    file = request.files['image']
+    file = request.files['imageF']
     filename = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
 
     file.save(filename)
@@ -26,6 +26,7 @@ def upload_file():
     ocr = ImageDetect.ocr_space_file(filename)
     p2 = ocr[1]
     dLicense=ocr[2]
+
 
     return render_template('uploaded.html', female=female, face=face, init=True, user_image=filename, ocr=p2,dLicense=dLicense)
 

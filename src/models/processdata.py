@@ -4,6 +4,8 @@ from flask import json
 from src.authdata import client, ocrAPIKey
 import requests
 
+
+
 class ImageDetect(object):
     def __init__(self ,t1):
         self. t1 =t1

@@ -24,14 +24,14 @@
 
   <form action="/upload" method="post" enctype="multipart/form-data" runat="server">
     <span class="btn btn-default btn-file">
-        Browse <input type="file" name="image" id="imgInp1" onchange="readURL(this);" />
+        Browse <input type="file" name="imageF" id="imgInp1" onchange="readURL(this);" />
       </span>
     <br>
       <img id="blah1" src="static/uploads/Fintech.jpeg" alt="your image" />
     <br>
 
     <span class="btn btn-default btn-file">
-        Browse <input type="file" name="image" id="imgInp2" onchange="readURL(this);" />
+        Browse <input type="file" name="imageB" id="imgInp2" onchange="readURL(this);" />
       </span>
     <!--<input type='file' onchange="readURL(this);" /> -->
     <br>
@@ -42,6 +42,18 @@
 
   </form>
 
+    <script>
+
+
+$("#imgInp1").change(function() {
+  readURL(this,'#blah1');
+});
+
+$("#imgInp2").change(function() {
+  readURL(this,'#blah2');
+});
+
+    </script>
 
 
 {% endblock %}
