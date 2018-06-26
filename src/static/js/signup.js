@@ -10,11 +10,3 @@ function readURL(input) {
             reader.readAsDataURL(input.files[0]);
         }
     }
-
-$("#imgInp1").change(function() {
-  readURL(this,'#blah1');
-});
-
-$("#imgInp2").change(function() {
-  readURL(this,'#blah2');
-});

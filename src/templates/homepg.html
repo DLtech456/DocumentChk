@@ -22,6 +22,18 @@
   <div class="panel panel-primary">
  	<div class="panel-heading">Camera API</div>
 
+    <script>
+
+  $("#imgInp1").change(function() {
+    readURL(this,'#blah1');
+  });
+
+  $("#imgInp2").change(function() {
+    readURL(this,'#blah2');
+  });
+
+    </script>
+
   <form action="/upload" method="post" enctype="multipart/form-data" runat="server">
     <span class="btn btn-default btn-file">
         Browse <input type="file" name="imageF" id="imgInp1" onchange="readURL(this);" />
@@ -41,19 +53,6 @@
     <input type="submit" value="Upload your image" class="btn btn-primary">
 
   </form>
-
-    <script>
-
-
-$("#imgInp1").change(function() {
-  readURL(this,'#blah1');
-});
-
-$("#imgInp2").change(function() {
-  readURL(this,'#blah2');
-});
-
-    </script>
 
 
 {% endblock %}
