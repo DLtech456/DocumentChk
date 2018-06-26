@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2783c98-b60a-4889-bd38-53f1691fe7a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/js/signup.js" afterPath="$PROJECT_DIR$/src/static/js/signup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/homepg.html" afterPath="$PROJECT_DIR$/src/templates/homepg.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="homepg.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/templates/homepg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="206">
+              <caret line="24" column="83" lean-forward="false" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -114,8 +113,8 @@
         <option value="$PROJECT_DIR$/src/app.py" />
         <option value="$PROJECT_DIR$/src/templates/uploaded.html" />
         <option value="$PROJECT_DIR$/src/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/templates/homepg.html" />
         <option value="$PROJECT_DIR$/src/static/js/signup.js" />
+        <option value="$PROJECT_DIR$/src/templates/homepg.html" />
       </list>
     </option>
   </component>
@@ -669,8 +668,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/homepg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="206">
+          <caret line="24" column="83" lean-forward="false" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
           <folding />
         </state>
       </provider>
