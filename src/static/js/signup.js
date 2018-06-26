@@ -3,7 +3,7 @@ function readURL(input,tag) {
             var reader = new FileReader();
 
             reader.onload = function (e) {
-                $("#" + tag).attr('src', e.target.result);
+                $("#" +tag).attr('src', e.target.result);
             };
             reader.readAsDataURL(input.files[0]);
         }

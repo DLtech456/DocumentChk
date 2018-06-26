@@ -13,7 +13,7 @@
 
 
 <div class="w3-half w3-container w3-xlarge w3-text-grey">
-  <p class="">Provide image you are interested in learning about</p>
+  <p>Provide image you are interested in learning about</p>
 </div>
     <br>
     <p>Developed by Venki Srinivasan</p>
@@ -24,21 +24,21 @@
 
   <form action="/upload" method="post" enctype="multipart/form-data" runat="server">
     <span class="btn btn-default btn-file">
-        Browse <input type="file" name="imageF" id="imgInp1" onchange="readURL(this)" />
-      </span>
-    <br>
-      <img id="blah1" src="static/uploads/Fintech.jpeg" alt="your image" />
-    <br>
+  Enter front of the drivers license  <input type='file' name="imageF" id="imgInp1" />
+  </span>
 
-    <span class="btn btn-default btn-file">
-        Browse <input type="file" name="imageB" id="imgInp2" onchange="readURL(this)" />
-      </span>
-    <!--<input type='file' onchange="readURL(this);" /> -->
-    <br>
-      <img id="blah2" src="static/uploads/Fintech.jpeg" alt="your image" />
-    <br>
+  <img id="blah1" src="#" alt="your image" />
 
-    <input type="submit" value="Upload your image" class="btn btn-primary">
+  <br>
+  <br>
+  <span class="btn btn-default btn-file">
+  Enter back of the drivers license  <input type='file' name="imageB" id="imgInp2" />
+  </span>
+
+  <img id="blah2" src="#" alt="your image" />
+  <br>
+  <br>
+  <input type="submit" value="Upload your image" class="btn btn-primary">
 
   </form>
 
