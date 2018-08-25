@@ -68,3 +68,11 @@ class ImageDetect(object):
 
 
         return cls, p2, dLicense
+
+    @classmethod
+    def barcodeDetect(cls, Img):
+
+        return cls
+
+
+
